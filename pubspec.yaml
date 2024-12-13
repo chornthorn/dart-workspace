@@ -1,0 +1,12 @@
+name: workspace
+description: A server app using the shelf package and Docker.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.5.4
+workspace:
+  - packages/shared
+  - server
+  - client
+

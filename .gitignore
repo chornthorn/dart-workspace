@@ -1,0 +1,76 @@
+# Dart & Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.atom/
+
+# Web related
+**/web/**/packages
+**/web/build/
+**/web/assets/packages
+
+# Client specific
+client/.dart_tool/
+client/build/
+client/.packages
+
+# Server specific
+server/.dart_tool/
+server/build/
+server/.packages
+
+# Shared package
+packages/shared/.dart_tool/
+packages/shared/build/
+packages/shared/.packages
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Environment files
+.env*
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Compiled output
+*.dart.js
+*.js.deps
+*.js.map
+*.info.json
+
+# Coverage
+coverage/
+.test_coverage.dart
+lcov.info
+
+# Documentation
+doc/api/
+
+# Optional: Node dependencies if using any Node.js tools
+node_modules/
+npm-debug.log
